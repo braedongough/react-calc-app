@@ -1,0 +1,100 @@
+import React from 'react'
+
+import Button from './Button'
+
+const Buttons = (props) => {
+    return (
+        <div>
+            <div>
+                <Button
+                    label="1"
+                    value={1}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="2"
+                    value={2}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="3"
+                    value={3}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="+"
+                    value={'+'}
+                    handleClick={props.handleClick}
+                />
+            </div>
+            <div>
+                <Button
+                    label="4"
+                    value={4}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="5"
+                    value={5}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="6"
+                    value={6}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="-"
+                    value={'-'}
+                    handleClick={props.handleClick}
+                />
+            </div>
+            <div>
+                <Button
+                    label="7"
+                    value={4}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="8"
+                    value={5}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="9"
+                    value={6}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="X"
+                    value={'*'}
+                    handleClick={props.handleClick}
+                />
+            </div>
+            <div>
+                <Button
+                    label="C"
+                    value={'C'}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="0"
+                    value={0}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="="
+                    value={'='}
+                    handleClick={props.handleClick}
+                />
+                <Button
+                    label="÷"
+                    value={'/'}
+                    handleClick={props.handleClick}
+                />
+            </div>
+        </div>
+    )
+}
+
+export default Buttons
